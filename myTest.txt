@@ -1,0 +1,21 @@
+PleaseAcceptMeIn
+GetLength
+PutItem 8
+PutItem 3
+PutItem 4
+PutItem 10
+PutItem 15
+PutItem 2
+PrintList
+IsFull
+GetItem 10
+GetItem 2
+DeleteItem 3
+PrintList
+DeleteItem 2
+MakeEmpty
+IsFull
+PrintList
+PutItem 4
+PrintList
+Quit
