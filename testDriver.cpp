@@ -32,6 +32,8 @@ int main() {
 		if (command == "Quit") { // this one works
 			cout << "Running " << command << endl;
 			quit = UL.Quit();
+			inFile.close();
+			outFile.close();
 		}
 		else if (command == "PutItem") { // this one works
 			inFile >> number;
@@ -51,11 +53,12 @@ int main() {
 			}
 			else {
 				outFile << desiredNumber << " not found!" << endl;
-				cout << desiredNumber << " hasn't been found, result has been printed to output file" << endl;
+				cout << desiredNumber << " couldn't be found, result has been printed to output file" << endl;
 			}
 		}
 		else if (command == "DeleteItem") { // This one works, but can be improved
 			inFile >> number;
+			cout << "Running Delete Item" << endl;
 			int desiredNumber = stoi(number);
 			UL.DeleteItem(desiredNumber);
 		}
@@ -66,23 +69,25 @@ int main() {
 		else if (command == "GetLength") { // this one works
 			cout << "Running " << command << endl;
 			outFile << UL.GetLength() << " is the current length of the array" << endl;
+			cout << UL.GetLength() << " is the current length of the array" << endl;
 		}
 		else if (command == "IsFull") { // this one works
 			cout << "Running " << command << endl;
 			full = UL.IsFull();
 			if (full == true) {
 				outFile << "List is full!" << endl;
+				cout << "List is full!" << endl;
 			}
 			else {
 				outFile << "List is not full!" << endl;
-
+				cout << "List is not full!" << endl;
 			}
 		}
 		else if (command == "MakeEmpty") { // This one works
 			cout << "Running " << command << endl;
 			UL.MakeEmpty();
 			outFile << "List has been emptied!" << endl;
-			cout << "list has been emptied!, result printed to output file" << endl;
+			cout << "List has been emptied!, result printed to output file" << endl;
 		}
 		else {
 			cout << command << " not accepted!" << endl;
