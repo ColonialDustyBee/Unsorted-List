@@ -75,7 +75,6 @@ void UnsortedList::MakeEmpty() { // This one would work automatically, it's simp
 	// Maybe we can initialize a new array here, it would fall under the same guise anyways.
 	delete list; // We delete the current array
 	counter = 0; // Sets counter back to 0.
-	length = 5;
 	int* list = new int[length]; // Create a new one, initialize it with the length it had of the previous one
 }
 bool UnsortedList::Quit() { // This one works
