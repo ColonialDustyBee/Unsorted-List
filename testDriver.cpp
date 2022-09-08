@@ -75,6 +75,7 @@ int main() {
 			}
 			else {
 				outFile << "List is not full!" << endl;
+
 			}
 		}
 		else if (command == "MakeEmpty") { // This one works
@@ -82,6 +83,9 @@ int main() {
 			UL.MakeEmpty();
 			outFile << "List has been emptied!" << endl;
 			cout << "list has been emptied!, result printed to output file" << endl;
+		}
+		else {
+			cout << command << " not accepted!" << endl;
 		}
 	}
 	return 0;
