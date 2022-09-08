@@ -1,5 +1,4 @@
 # Unsorted-List
-// WARNING!: WORK IN PROGRESS //
 
 Should be able to include any .txt file as inputfile with respective commands. Generates an output file based on name provided
 
