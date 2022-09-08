@@ -1,0 +1,11 @@
+--Test Run--
+5 is the current length of the array
+List is as follows: 8 3 4 10 15 
+List is full!
+10 has been found!
+2 not found!
+List is as follows: 8 4 10 15 
+List has been emptied!
+List is not full!
+List is as follows: list is currently empty!
+List is as follows: 4 
