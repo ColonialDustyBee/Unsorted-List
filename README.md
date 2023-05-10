@@ -1,8 +1,11 @@
 # Unsorted-List (Project Created for CS 301 - Data Structures and Algorithms)
 (It should be noted that this project will most likely not be updated for the foreseable future and it is mainly here as an archive. You are more than welcome to fork it over and make improvements on it as you see fit. If you do make improvements, I would love to see them to further refine my C++ knowledge)
+
+This project aims to simulate an unsorted list. It does so by allocating dynamic memory and then using that memory to input numbers onto each specific chunk.
+
 Should be able to include any .txt file as inputfile with respective commands. Generates an output file based on name provided
 
-The following commands are accepted
+The following commands are accepted (ensure that the commands come before the numbers if they are prompted for respectively. For example PutItem x must be in that format for any number you wish to add onto the list.)
 
 GetLength - returns length of list, prints it to output file that is asked earlier.
 
