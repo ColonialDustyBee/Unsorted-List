@@ -1,4 +1,5 @@
-# Unsorted-List
+# Unsorted-List (Project Created for CS 301 - Data Structures and Algorithms)
+# It should be noted that this project will most likely not be updated.
 
 Should be able to include any .txt file as inputfile with respective commands. Generates an output file based on name provided
 
